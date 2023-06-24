@@ -1,0 +1,87 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: rgba(26, 26, 28, 1);
+color: aliceblue;
+}
+
+.root{
+width: 100vw;
+height: 100vh;
+/* border: 10px solid rebeccapurple; */
+display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+
+.container{
+    /* border: 2px solid red; */
+/* border: 2px solid rgb(142,142,142); */
+height: 50vh;
+width: 90vw;
+}
+
+.upper{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap:20px;   
+    margin-bottom: 50px; 
+}
+ .upper input{
+   flex-basis: 50%;
+   border: 1px solid rgb(142,142,142);
+   outline: none;
+ }
+
+ .upper *{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 10px;
+ }
+
+ .upper button{
+    cursor: pointer;
+ }
+
+ .upper button:hover{
+    background-color: aliceblue;
+    color: rgb(142,142,142);
+ }
+
+.data-table{
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    border-collapse: collapse;
+    width: 80vw;
+    margin-left: 100px;
+}
+
+.row {
+    padding: 5px 5px;
+    border-top: 1px solid rgb(215,215,215);
+}
+
+td{
+    margin: 10px;
+}
+
+.crypto-image{
+    height: 30px;
+    width: 30px;
+    margin: 4px
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.positive{
+color: rgb(99, 210, 65);
+}
+.negative{
+color: rgb(176, 43, 33);
+}
